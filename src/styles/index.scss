@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap');
+@import "lib/variables";
+@import "lib/mixins";
+@import "partials/header";
+@import "partials/hero";
+@import "partials/about";
+
+* {
+  box-sizing: border-box;
+  min-width: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100dvh;
+  padding: 0;
+  margin: 0;
+  font-family: $font-nano;
+}
+
+h1, h2, h3, h4 {
+  text-wrap: balance;
+  font-family: $font-oswald;
+}
+
+p {
+  text-wrap: pretty;
+}
